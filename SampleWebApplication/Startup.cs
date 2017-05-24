@@ -35,6 +35,10 @@ namespace SampleWebApplication
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{name?}");
+                /*
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Home}/{action=Help}/{name?}");*/
             });
         }
     }

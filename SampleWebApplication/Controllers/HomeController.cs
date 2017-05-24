@@ -13,7 +13,14 @@ namespace SampleWebApplication.Controllers
         // GET: /<controller>/
         public IActionResult Index(string name)
         {
-            ViewBag.Name = name??"Inigo Montoya";
+            ViewBag.Name = name??"Inigo Montoya!!!@@@";
+            return View();
+        }
+
+        // This adds another action we can make
+        public IActionResult Help(string name)
+        {
+            ViewBag.Name = name ?? "Inigo Montoya !!";
             return View();
         }
     }
