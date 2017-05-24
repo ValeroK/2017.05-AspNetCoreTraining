@@ -29,6 +29,7 @@ namespace SampleWebApplication
                 app.UseDeveloperExceptionPage();
             }
 
+            //This enables you to add static file to the wwwroot directory for example the bootstrap.css file
             app.UseStaticFiles();
 
             // app.UseMvcWithDefaultRoute();
