@@ -3,7 +3,9 @@
     <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <Content Include="wwwroot\lib\bootstrap\SampleTextFile.txt" />
+    <Content Include="wwwroot\lib\SampleTextFile.txt" />
+    <Content Include="wwwroot\SampleTextFile.txt" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
