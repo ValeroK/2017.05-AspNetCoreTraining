@@ -29,7 +29,7 @@ namespace SampleWebApplication
                 app.UseDeveloperExceptionPage();
             }
 
-            // app.UseMvcWithDefaultRoute();
+            // app.UseMvcWithDefaultRoute(); // This line performs the same routhing as the below!
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
